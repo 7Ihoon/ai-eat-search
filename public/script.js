@@ -1,5 +1,5 @@
 const chatGPT = async (messages, parameters = {}) => {
-  const apikey = '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';
+  const apikey = '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';
   if (messages.length === 0 || messages[0].constructor === String) {
     return await chatGPT([['user', messages[0]]]);
   }
